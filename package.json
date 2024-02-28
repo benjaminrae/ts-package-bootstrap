@@ -1,0 +1,23 @@
+{
+  "name": "ts-package-bootstrap",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "terser": "^5.28.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
