@@ -16,8 +16,14 @@
       }
     }
   },
+  "files": [
+    "README.md",
+    "dist",
+    "src"
+  ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "release": "semantic-release"
   },
   "keywords": [],
   "author": "",
